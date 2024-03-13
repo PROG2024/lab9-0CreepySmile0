@@ -26,3 +26,5 @@ class TestCounter(unittest.TestCase):
         self.assertEqual(self.counter1.count, self.counter2.count)
         self.assertEqual(self.counter1.count, 2)
         self.assertEqual(self.counter2.count, 2)
+        c = Counter()
+        self.assertEqual(c.count, 2)
